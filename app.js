@@ -15,7 +15,7 @@ function MsgController($scope) {
 
 
     if ($scope.fullString == "") {
-      $scope.message = "Error: You must insert at least one element";
+      $scope.message = "Please enter data first";
     } else if(items.length <= 3) {
       $scope.message = "Enjoy!!!"
     }else{
